@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 h-14 flex items-center px-10 justify-between">
       <div className="flex-1 space-x-4">
-        <a href="https://goddezz.xyz/" className="font-bold text-white pr-6">
+        <a href="https://goddezz.xyz/" target="_blank" className="font-bold text-white pr-6">
           Goddezz.xyz
         </a>
         <a
