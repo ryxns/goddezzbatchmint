@@ -11,11 +11,10 @@ export default function ChangeQuantity(props) {
     <font 
       color="white"
     >
-    TzRaffle #2 Tickets
+    Goddezz Batch Mint
     <br />
     <img
-      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/tzraffles/tzraffle.PNG"
-      width="300"
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/goddezz/goddezz_transparent-534.webp"
     />
     </font>
     </center>
@@ -25,7 +24,7 @@ export default function ChangeQuantity(props) {
     <input
         type="text"
         name="name"
-        placeholder="Number of Tickets"
+        placeholder="Number of Mints"
         onChange={(e) => {
           setQuantity(e.target.value);
         }}
