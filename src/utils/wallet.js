@@ -67,7 +67,7 @@ export const changeQuantity = async (quantity) => {
     for (let i = 0; i < quantity; i++) {
       microTransactions.push({
         kind: OpKind.TRANSACTION,
-        ...contract.methods.mintOne(1).toTransferParams(),
+        ...contract.methods.mintOne().toTransferParams(),
         amount: amount,
         mutez: false,
       });
