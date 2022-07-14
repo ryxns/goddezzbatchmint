@@ -31,14 +31,14 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 h-14 flex items-center px-10 justify-between">
       <div className="flex-1 space-x-4">
-        <a href="#!" className="font-bold text-white pr-6">
-          TzRaffles.tez
+        <a href="https://goddezz.xyz/" className="font-bold text-white pr-6">
+          Goddezz.xyz
         </a>
         <a
           href="#!"
           className="bg-black text-gray-200 px-4 py-2 text-sm font-semibold rounded-sm"
         >
-          TzRaffle #2
+          Batch Mint
         </a>
       </div>
       <div>
