@@ -19,7 +19,7 @@ export default function ChangeQuantity(props) {
     </font>
     </center>
     </div>
-    <div className="flex">  
+    <div>  
     <center>
     <input
         type="text"
@@ -36,7 +36,7 @@ export default function ChangeQuantity(props) {
         }}
         className="bg-red-500 px-6 py-3 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
       >
-        Batch Buy
+        Batch Mint
       </button>
     </center>
     </div>
